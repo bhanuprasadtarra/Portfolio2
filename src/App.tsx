@@ -674,11 +674,6 @@ export default function App() {
 
             <div className="p-6 bg-slate-900 text-white rounded-xl border border-slate-800 shadow-lg relative overflow-hidden">
               
-              {/* Star background accents */}
-              <div className="absolute right-0 bottom-0 opacity-10 font-mono text-[90px] font-bold pointing-none select-none tracking-tighter">
-                xT WORKFLOW
-              </div>
-
               {/* Graphical workflow container */}
               <div className="relative h-44 mb-4 border border-slate-800 rounded-lg bg-slate-950 flex items-center justify-between px-4 lg:px-8 overflow-x-auto no-scrollbar">
                 

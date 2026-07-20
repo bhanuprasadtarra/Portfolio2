@@ -83,7 +83,7 @@ export default function App() {
     },
     {
       title: "Frontend",
-      skills: ["React", "Vue 3", "Angular", "WebView2", "HTML5", "CSS3", "Bootstrap", "Material UI"]
+      skills: ["React", "Angular", "Vue 3", "WebView2", "HTML5", "CSS3", "Bootstrap", "Material UI"]
     },
     {
       title: "Backend",
@@ -313,7 +313,7 @@ export default function App() {
     if (focus === 'All') {
       setSelectedSkills([]);
     } else if (focus === 'Frontend') {
-      setSelectedSkills(["React", "Vue 3", "Angular", "TypeScript", "HTML5"]);
+      setSelectedSkills(["React", "Angular", "Vue 3", "TypeScript", "HTML5"]);
     } else if (focus === 'Backend') {
       setSelectedSkills(["C#", "ASP.NET Core", "SQL Server", "PostgreSQL", "REST APIs"]);
     } else if (focus === 'DevOps') {
@@ -351,7 +351,7 @@ export default function App() {
           <span className="flex h-2 w-2 rounded-full bg-teal-400 animate-ping"></span>
           <span className="font-semibold text-slate-100">Bhanu Prasad Tarra</span>
           <span className="text-slate-500">|</span>
-          <span className="text-teal-400 font-mono tracking-tight text-[11px]">8+ Yrs Enterprise Experience (.NET & React/Vue/Angular)</span>
+          <span className="text-teal-400 font-mono tracking-tight text-[11px]">8+ Yrs Enterprise Experience (.NET & React/Angular/Vue)</span>
         </div>
         <div className="flex items-center gap-4">
           <button 
@@ -637,7 +637,7 @@ export default function App() {
             </h2>
             <div className="space-y-4">
               <p className="text-base lg:text-lg text-slate-600 leading-relaxed font-normal">
-                Senior Full Stack Developer with <strong className="text-slate-900 font-semibold">8+ years of experience</strong> specializing in designing, modernizing, and maintaining scalable enterprise applications using <strong className="text-slate-900 font-semibold">.NET, ASP.NET Core, React, Vue 3, WinForms, SQL Server, and PostgreSQL</strong>. Certified expert driving migration architectures.
+                Senior Full Stack Developer with <strong className="text-slate-900 font-semibold">8+ years of experience</strong> specializing in designing, modernizing, and maintaining scalable enterprise applications using <strong className="text-slate-900 font-semibold">.NET, ASP.NET Core, React, Angular, Vue 3, WinForms, SQL Server, and PostgreSQL</strong>. Certified expert driving migration architectures.
               </p>
               
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">

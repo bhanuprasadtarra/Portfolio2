@@ -116,7 +116,7 @@ export default function App() {
           title: "xT Administration Platform",
           role: "Senior Full Stack Engineer / Technical Lead",
           duration: "June 2023 – Present",
-          technologies: [".NET 8", "ASP.NET Core", "C#", "React", "Vue 3", "WinForms", "WebView2", "SQL Server", "PostgreSQL", "Jenkins", "Git", "CI/CD"],
+          technologies: [".NET 10", "ASP.NET Core", "C#", "React", "Vue 3", "WinForms", "WebView2", "SQL Server", "PostgreSQL", "Jenkins", "Git", "CI/CD"],
           description: "An enterprise administration and integration management application supporting workflow management, service integrations, security, user access, routing configurations, and enterprise messaging. Migrating critical WinForms functionality into scalable web-based RESTful architectures.",
           responsibilities: [
             "Full-Stack Modernization: Independently engineered the architectural migration of business-critical WinForms desktop apps into clean web architectures using React, Vue 3, and ASP.NET Core REST APIs.",
@@ -140,7 +140,7 @@ export default function App() {
           client: "H&M (Hennes & Mauritz AB)",
           duration: "August 2021 – January 2023",
           role: "Full Stack Developer",
-          technologies: ["Angular 12", ".NET Core", "SQL", "Azure", "DevOps"],
+          technologies: ["Angular", ".NET Core", "SQL", "Azure", "DevOps"],
           description: "Weekly partner offer generator application connecting multiple platforms via REST APIs to ingest records, process business logic via .NET Core services, and stream calculated partner offers downstream safely.",
           responsibilities: [
             "Designed and programmed full-scale cloud-native modules with robust responsive layouts suited to enterprise multi-viewport needs.",
@@ -155,10 +155,10 @@ export default function App() {
           client: "TCS Internal Project",
           duration: "March 2020 – July 2021",
           role: "Frontend Developer",
-          technologies: ["Angular 9", "Angular 6", "JavaScript", "Google Cloud", "HTML5", "CSS3", "Bootstrap"],
+          technologies: ["Angular", "JavaScript", "Google Cloud", "HTML5", "CSS3", "Bootstrap"],
           description: "Omni-channel system broadcasting messaging communications (SMS, IVR, Email) to global employees relative to regional operations and schedules.",
           responsibilities: [
-            "Converted highly precise UI/UX design wireframes into modular, high-fidelity responsive frontend layers with Angular (v6 to v9 transition).",
+            "Converted highly precise UI/UX design wireframes into modular, high-fidelity responsive frontend layers with Angular.",
             "Sustained cross-browser compatibility and responsive pixel fidelity across Edge, Chrome, Safari, Firefox, and legacy engines.",
             "Implemented custom audio elements: Built a specialized frontend recording driver to compile user voice samples to ready WAV/MP3 files.",
             "Embedded dynamic Text-to-Speech synthesis tools using Google Cloud TTS API, mapping customized accent and velocity controllers.",
@@ -170,10 +170,10 @@ export default function App() {
           client: "The Boeing Company",
           duration: "August 2018 – February 2020",
           role: "Full-Stack Developer",
-          technologies: ["Angular 6", ".NET Core SDK", "C#", "MS SQL", "TFS"],
+          technologies: ["Angular", ".NET Core SDK", "C#", "MS SQL", "TFS"],
           description: "Complex pricing valuation suite allowing users to customize aviation equipment deals. Employs advanced server-side calculators to cross-reference prices against order density, raw manufacturing margins, and delivery schedules.",
           responsibilities: [
-            "Programmed responsive enterprise SPA templates in Angular 6 synchronized with secure .NET Core API computation nodes.",
+            "Programmed responsive enterprise SPA templates in Angular synchronized with secure .NET Core API computation nodes.",
             "Created recursive server and client-side form validations guarding dense pricing matrices against manual entry skew.",
             "Participated in daily international standups with Boeing architects, delivering clear timeline reports and reviewing codebases.",
             "Spearheaded automated migration routines across legacy equipment configurations, ensuring unified data storage structures."
@@ -234,7 +234,7 @@ export default function App() {
   const workflowNodes = [
     { 
       id: 'ui', 
-      label: 'React / Vue SPA', 
+      label: 'React / Angular SPA', 
       desc: 'High-performance interactive web components. Built workflow designers, customized graphs, and responsive dash cards.',
       role: 'Frontend Modernization',
       x: '10%', y: '50%',
@@ -250,8 +250,8 @@ export default function App() {
     },
     { 
       id: 'csharp', 
-      label: 'C# .NET 8 Web API', 
-      desc: 'Restructured backend nodes using .NET 8, CQRS design patterns, and entity relationships to support millions of queries.',
+      label: 'C# .NET 10 Web API', 
+      desc: 'Restructured backend nodes using .NET 10, CQRS design patterns, and entity relationships to support millions of queries.',
       role: 'Backend Core',
       x: '62%', y: '50%',
       icon: <Server className="w-5 h-5 text-indigo-600" />
